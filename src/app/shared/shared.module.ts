@@ -15,7 +15,8 @@ import { RouterModule } from '@angular/router';
     RouterModule
   ],
   exports: [
-    SidebarComponent
+    SidebarComponent,
+    SearchBoxComponent
   ]
 })
 export class SharedModule { }
